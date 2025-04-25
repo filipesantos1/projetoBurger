@@ -15,11 +15,11 @@ function formatCurrency(value) {
 function showDrinks() {
     let myLi = ''
     
-    productsArray.forEach((product) => {
+    menuOptions2.forEach((product) => {
         myLi +=`
         
         <li>
-        <img src =${product.src}>
+        <img src ="${product.src}">
         <p>${product.name}</p> 
         <p class="item-price"> ${formatCurrency(product.price)}</p>
         </li>`   
@@ -35,7 +35,7 @@ function showAll(productsArray) {
     productsArray.forEach((product) => {
         myLi += `
           <li>
-                <img src =${product.src}>
+                <img src ="${product.src}">
                 <p>${product.name}</p>
                 <p class="item-price"> ${formatCurrency(product.price)}</p>
             </li>
@@ -83,4 +83,6 @@ buttonShowAll.addEventListener('click', () => showAll(menuOptions))
 buttonMapAll.addEventListener('click', mapAllItems)
 buttonVegan.addEventListener('click', filterVegan)
 sumAll.addEventListener('click', sumAllItens)
+buttonShowDrinks.addEventListener('click', () => showDrinks(menuOptions2))
+
 

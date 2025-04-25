@@ -16,15 +16,15 @@ const menuOptions = [
     ]
 
     const menuOptions2 = [  
-        { name: 'Coca-Cola', price: 15, coca: true, src: './assets/coca.jpeg' },
+        { name: 'Coca-Cola', price: 15,  src: './assets/coca_cola.jpg' },
 
-        { name: 'Fanta', price: 15, fanta: true, src: './assets/fanta.jpeg' },
+        { name: 'Fanta', price: 12, src: './assets/fanta.jpg' },
 
-        { name: 'Guaraná', price: 15, gurana: true, src: './assets/guarana.jpeg' },
+        { name: 'Guaraná', price: 12, src: './assets/guarana.jpg' },
 
-        { name: 'Suco Uva', price: 15, uva: true, src: './assets/uva.jpeg' },
+        { name: 'Suco Uva', price: 13, src: './assets/uva.jpg' },
 
-        { name: 'Suco Laranja', price: 15, laranja: true, src: './assets/laranja.jpeg' },
+        { name: 'Suco Laranja', price: 13, src: './assets/laranja.jpg' },
 
-        { name: 'Chá', price: 15, cha: true, src: './assets/cha.jpeg' },
+        { name: 'Chá', price: 14, src: './assets/cha.jpg' },
     ]
