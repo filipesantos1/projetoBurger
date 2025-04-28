@@ -16,15 +16,18 @@ const menuOptions = [
     ]
 
     const menuOptions2 = [  
-        { name: 'Coca-Cola', price: 15,  src: './assets/coca_cola.jpg' },
 
-        { name: 'Fanta', price: 12, src: './assets/fanta.jpg' },
+        { name: 'Suco Laranja', price: 13, src: './assets/sucoLaranja.jpg' },
 
-        { name: 'Guaraná', price: 12, src: './assets/guarana.jpg' },
+        { name: 'Suco Limão', price: 13, src: './assets/sucoLimao.jpg' },
 
-        { name: 'Suco Uva', price: 13, src: './assets/uva.jpg' },
+        { name: 'Maracujá', price: 15, src: './assets/sucoMaracuja.jpg' },
 
-        { name: 'Suco Laranja', price: 13, src: './assets/laranja.jpg' },
+        { name: 'Refrigerantes', price: 10,  src: './assets/refrigerantes.jpg' },
 
-        { name: 'Chá', price: 14, src: './assets/cha.jpg' },
+        { name: 'Cervejas', price: 12, src: './assets/cervejas.jpg' },
+
+        { name: 'Caipirinhas', price: 18, src: './assets/caipirinhaMaracuja.jpg' },
+
+        
     ]
